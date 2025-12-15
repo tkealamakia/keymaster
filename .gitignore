@@ -1,0 +1,15 @@
+target/
+.settings/
+.classpath
+.project
+wow.log
+.DS_Store
+uberpwn.iml
+bin/
+.idea/
+
+.idea/workspace.xml
+
+src/test/Test.iml
+
+src/main/Main.iml

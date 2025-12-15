@@ -1,0 +1,70 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+  <Script File="UberPwn.lua"/>
+  <Frame name="UberPwnFrame" enableMouse="true" movable="true">
+    <Size><AbsDimension x="63" y="12"/></Size>
+    <Anchors>
+      <Anchor point="TOPLEFT">
+        <Offset>
+          <AbsDimension x="920" y="-60" />
+       </Offset>
+      </Anchor>
+    </Anchors>
+    <Layers>
+      <Layer level="BACKGROUND">
+        <Texture name="$parent_Background">
+          <Color r="1.0" g="1.0" b="1.0"/>
+        </Texture>
+      </Layer>
+    </Layers>
+    <Frames>
+      <Frame name="$parent_Attack">
+        <Size>
+          <AbsDimension x="3" y="3"/>
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="3" y="-3" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Layers>
+          <Layer level="OFFSET">
+            <Texture name="$parent_Color">
+              <Color r="1" g="1" b="1"/>
+            </Texture>
+          </Layer>
+        </Layers>
+      </Frame>
+
+      <Frame name="$parent_ApplicableUnitTypes">
+        <Size>
+          <AbsDimension x="3" y="3"/>
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="6" y="-3" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Layers>
+          <Layer level="OFFSET">
+            <Texture name="$parent_Color">
+              <Color r="1" g="1" b="1"/>
+            </Texture>
+          </Layer>
+        </Layers>
+      </Frame>
+    </Frames>
+    <Scripts>
+      <OnLoad>
+        self.TimeSinceLastUpdate = 0;UberPwn_OnLoad();
+        self:RegisterForDrag("LeftButton");
+      </OnLoad>
+      <OnDragStart>self:StartMoving();</OnDragStart>
+      <OnDragStop>self:StopMovingOrSizing();</OnDragStop>
+      <OnUpdate function="UberPwn_OnUpdate" />
+    </Scripts>
+  </Frame>
+</Ui>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rotation>
+    <autoArenaFocus>false</autoArenaFocus>
+    <id>6ef2c302-78d1-4700-b113-db10cfc70eb7</id>
+    <name>BM Hunter</name>
+    <rotationActions>
+        <healthPercentMaximum>
+            <unitId>SELF</unitId>
+            <value>25</value>
+        </healthPercentMaximum>
+        <spell>
+            <name>Healthstone</name>
+            <spellId>5512</spellId>
+        </spell>
+        <unitId>SELF</unitId>
+    </rotationActions>
+    <rotationActions>
+        <healthPercentMaximum>
+            <unitId>TARGET</unitId>
+            <value>20</value>
+        </healthPercentMaximum>
+        <spell>
+            <name>Kill Shot</name>
+            <spellId>53351</spellId>
+        </spell>
+        <stopCasting>true</stopCasting>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <casting>
+            <unitId>TARGET</unitId>
+            <value>true</value>
+        </casting>
+        <spell>
+            <name>Silencing Shot</name>
+            <spellId>34490</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <debuffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Hunter's Mark</name>
+                    <spellId>1130</spellId>
+                </noneAuras>
+            </value>
+        </debuffs>
+        <spell>
+            <name>Hunter's Mark</name>
+            <spellId>1130</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <range>
+            <unitId>TARGET</unitId>
+            <value>7</value>
+        </range>
+        <debuffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Scatter Shot</name>
+                    <spellId>37506</spellId>
+                </noneAuras>
+            </value>
+        </debuffs>
+        <spell>
+            <name>Scatter Shot</name>
+            <spellId>19503</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <range>
+            <unitId>TARGET</unitId>
+            <value>5</value>
+        </range>
+        <spell>
+            <name>Snake Trap</name>
+            <spellId>34600</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <debuffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Concussive Shot</name>
+                    <spellId>5116</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Freezing Trap</name>
+                    <spellId>1499</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Frost Breath</name>
+                    <spellId>54644</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Scatter Shot</name>
+                    <spellId>19503</spellId>
+                </noneAuras>
+            </value>
+        </debuffs>
+        <spell>
+            <name>Concussive Shot</name>
+            <spellId>5116</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <debuffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Scatter Shot</name>
+                    <spellId>19503</spellId>
+                </noneAuras>
+            </value>
+        </debuffs>
+        <spell>
+            <name>Rapid Fire</name>
+            <spellId>3045</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <spell>
+            <name>A Murder of Crows</name>
+            <spellId>131894</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <spell>
+            <name>Dire Beast</name>
+            <spellId>120679</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <spellIsOnCooldown>
+            <value>19577</value>
+        </spellIsOnCooldown>
+        <spell>
+            <name>Readiness</name>
+            <spellId>23989</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <debuffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Scatter Shot</name>
+                    <spellId>19503</spellId>
+                </noneAuras>
+            </value>
+        </debuffs>
+        <spell>
+            <name>Intimidation</name>
+            <spellId>19577</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <debuffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Scatter Shot</name>
+                    <spellId>19503</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Freezing Trap</name>
+                    <spellId>1499</spellId>
+                </noneAuras>
+            </value>
+        </debuffs>
+        <spell>
+            <name>Bestial Wrath</name>
+            <spellId>19574</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <debuffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Scatter Shot</name>
+                    <spellId>19503</spellId>
+                </noneAuras>
+            </value>
+        </debuffs>
+        <spell>
+            <name>Ruthless Gladiator's Badge of Conquest</name>
+            <spellId>72304</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <focusMinimum>
+            <unitId>SELF</unitId>
+            <value>40</value>
+        </focusMinimum>
+        <debuffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Scatter Shot</name>
+                    <spellId>19503</spellId>
+                </noneAuras>
+            </value>
+        </debuffs>
+        <spell>
+            <name>Kill Command</name>
+            <spellId>34026</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <debuffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Improved Serpent Sting</name>
+                    <spellId>82834</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Serpent Sting</name>
+                    <spellId>1978</spellId>
+                </noneAuras>
+            </value>
+        </debuffs>
+        <spell>
+            <name>Serpent Sting</name>
+            <spellId>1978</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <debuffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Scatter Shot</name>
+                    <spellId>37506</spellId>
+                </noneAuras>
+            </value>
+        </debuffs>
+        <spell>
+            <name>Focus Fire</name>
+            <spellId>82692</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <focusMinimum>
+            <unitId>SELF</unitId>
+            <value>24</value>
+        </focusMinimum>
+        <debuffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Scatter Shot</name>
+                    <spellId>19503</spellId>
+                </noneAuras>
+            </value>
+        </debuffs>
+        <spell>
+            <name>Arcane Shot</name>
+            <spellId>3044</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <debuffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Scatter Shot</name>
+                    <spellId>19503</spellId>
+                </noneAuras>
+            </value>
+        </debuffs>
+        <spell>
+            <name>Cobra Shot</name>
+            <spellId>77767</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <debuffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Scatter Shot</name>
+                    <spellId>19503</spellId>
+                </noneAuras>
+            </value>
+        </debuffs>
+        <spell>
+            <name>Steady Shot</name>
+            <spellId>56641</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+</rotation>

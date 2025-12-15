@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rotation>
+    <autoArenaFocus>true</autoArenaFocus>
+    <id>f9c9a5b2-bdf3-4293-a584-046935f64cd3</id>
+    <name>Frost Mage</name>
+    <rotationActions>
+        <debuffs>
+            <unitId>SELF</unitId>
+            <value>
+                <anyAuras>
+                    <name>Holy Wrath</name>
+                    <spellId>2812</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Intercept</name>
+                    <spellId>20252</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Seduction</name>
+                    <spellId>6358</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Shackle Undead</name>
+                    <spellId>9484</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Turn Evil</name>
+                    <spellId>10326</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Intimidating Shout</name>
+                    <spellId>5246</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Sonic Blast</name>
+                    <spellId>50519</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Maim</name>
+                    <spellId>22570</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Hibernate</name>
+                    <spellId>2637</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Polymorph</name>
+                    <spellId>61780</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Gnaw</name>
+                    <spellId>47481</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Stoneclaw Stun</name>
+                    <spellId>39796</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Holy Word: Chastise</name>
+                    <spellId>88625</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Shadowfury</name>
+                    <spellId>30283</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Bash</name>
+                    <spellId>5211</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Psychic Scream</name>
+                    <spellId>8122</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Intimidation</name>
+                    <spellId>19577</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Throwdown</name>
+                    <spellId>85388</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Hex</name>
+                    <spellId>51514</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Death Coil</name>
+                    <spellId>6789</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Axe Toss</name>
+                    <spellId>89766</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Kidney Shot</name>
+                    <spellId>408</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Hammer of Justice</name>
+                    <spellId>853</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Cyclone</name>
+                    <spellId>33786</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Fear</name>
+                    <spellId>5782</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Repentance</name>
+                    <spellId>20066</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Burrow Attack</name>
+                    <spellId>93433</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Deep Freeze</name>
+                    <spellId>44572</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Bad Manner</name>
+                    <spellId>90337</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Concussion Blow</name>
+                    <spellId>12809</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>War Stomp</name>
+                    <spellId>20549</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Scare Beast</name>
+                    <spellId>1513</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Infernal Awakening</name>
+                    <spellId>22703</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Sting</name>
+                    <spellId>56626</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Entrapment</name>
+                    <spellId>19185</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Goblin Weather Machine</name>
+                    <spellId>46203</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Blind</name>
+                    <spellId>2094</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Ring of Frost</name>
+                    <spellId>82676</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Impact</name>
+                    <spellId>64343</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Demon Leap</name>
+                    <spellId>54785</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Dragon's Breath</name>
+                    <spellId>31661</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Psychic Horror</name>
+                    <spellId>64044</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Cheap Shot</name>
+                    <spellId>1833</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Shockwave</name>
+                    <spellId>46968</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Gouge</name>
+                    <spellId>1776</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Mind Control</name>
+                    <spellId>605</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Wyvern Sting</name>
+                    <spellId>19386</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Pounce</name>
+                    <spellId>9005</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Howl of Terror</name>
+                    <spellId>5484</spellId>
+                </anyAuras>
+            </value>
+        </debuffs>
+        <spell>
+            <name>Every Man for Himself</name>
+            <spellId>59752</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <attackNumbers>
+            <value>2</value>
+        </attackNumbers>
+        <spell>
+            <name>Blink</name>
+            <spellId>1953</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <spellIsOnCooldown>
+            <value>45438</value>
+        </spellIsOnCooldown>
+        <healthPercentMaximum>
+            <unitId>SELF</unitId>
+            <value>25</value>
+        </healthPercentMaximum>
+        <spell>
+            <name>Cold Snap</name>
+            <spellId>11958</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <buffs>
+            <unitId>SELF</unitId>
+            <value>
+                <noneAuras>
+                    <name>Alliance Flag</name>
+                    <spellId>23335</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Netherstorm Flag</name>
+                    <spellId>34976</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Horde Flag</name>
+                    <spellId>23333</spellId>
+                </noneAuras>
+            </value>
+        </buffs>
+        <healthPercentMaximum>
+            <unitId>SELF</unitId>
+            <value>25</value>
+        </healthPercentMaximum>
+        <spell>
+            <name>Ice Block</name>
+            <spellId>45438</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <healthPercentMaximum>
+            <unitId>SELF</unitId>
+            <value>50</value>
+        </healthPercentMaximum>
+        <spell>
+            <name>Healthstone</name>
+            <spellId>5512</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <healthPercentMaximum>
+            <unitId>SELF</unitId>
+            <value>70</value>
+        </healthPercentMaximum>
+        <spell>
+            <name>Lifeblood</name>
+            <spellId>74497</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <casting>
+            <unitId>TARGET</unitId>
+            <value>true</value>
+        </casting>
+        <caster>
+            <unitId>TARGET</unitId>
+            <value>true</value>
+        </caster>
+        <spell>
+            <name>Counterspell</name>
+            <spellId>2139</spellId>
+        </spell>
+        <stopCasting>true</stopCasting>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <buffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Ice Block</name>
+                    <spellId>45438</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Divine Shield</name>
+                    <spellId>642</spellId>
+                </noneAuras>
+            </value>
+        </buffs>
+        <casting>
+            <unitId>TARGET</unitId>
+            <value>true</value>
+        </casting>
+        <caster>
+            <unitId>TARGET</unitId>
+            <value>true</value>
+        </caster>
+        <spell>
+            <name>Counterspell</name>
+            <spellId>2139</spellId>
+        </spell>
+        <stopCasting>true</stopCasting>
+        <unitId>FOCUS</unitId>
+    </rotationActions>
+    <rotationActions>
+        <noAggro>
+            <unitId>FOCUS</unitId>
+            <value>true</value>
+        </noAggro>
+        <buffs>
+            <unitId>FOCUS</unitId>
+            <value>
+                <noneAuras>
+                    <name>Tree of Life</name>
+                    <spellId>33891</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Bear Form</name>
+                    <spellId>5487</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Divine Shield</name>
+                    <spellId>642</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Spell Reflection</name>
+                    <spellId>23920</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Travel Form</name>
+                    <spellId>783</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Ice Block</name>
+                    <spellId>45438</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Cat Form</name>
+                    <spellId>768</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Moonkin Form</name>
+                    <spellId>24858</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Cloak of Shadows</name>
+                    <spellId>31224</spellId>
+                </noneAuras>
+            </value>
+        </buffs>
+        <appliesDebuff>
+            <unitId>FOCUS</unitId>
+            <value>
+                <appliesAura>true</appliesAura>
+                <targetMinimumDiminishingReturn>FIFTY_PERCENT</targetMinimumDiminishingReturn>
+            </value>
+        </appliesDebuff>
+        <pauseForCooldown>true</pauseForCooldown>
+        <spell>
+            <name>Polymorph</name>
+            <spellId>118</spellId>
+        </spell>
+        <unitId>FOCUS</unitId>
+    </rotationActions>
+    <rotationActions>
+        <manaPercentMinimum>
+            <unitId>SELF</unitId>
+            <value>50</value>
+        </manaPercentMinimum>
+        <buffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <anyAuras>
+                    <name>Spirit Mend</name>
+                    <spellId>90361</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Arcane Power</name>
+                    <spellId>12042</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Avenging Wrath</name>
+                    <spellId>31884</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Ice Barrier</name>
+                    <spellId>98864</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Divine Shield</name>
+                    <spellId>642</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Hand of Protection</name>
+                    <spellId>1022</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Ice Block</name>
+                    <spellId>45438</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Divine Favor</name>
+                    <spellId>31842</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Prayer of Mending</name>
+                    <spellId>41635</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Eradication</name>
+                    <spellId>64371</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Illuminated Healing</name>
+                    <spellId>86273</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Rejuvenation</name>
+                    <spellId>774</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Earthliving</name>
+                    <spellId>51945</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Icy Veins</name>
+                    <spellId>12472</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Renew</name>
+                    <spellId>139</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Divine Aegis</name>
+                    <spellId>47753</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Riptide</name>
+                    <spellId>61295</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Power Infusion</name>
+                    <spellId>10060</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Power Word: Shield</name>
+                    <spellId>17</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Regrowth</name>
+                    <spellId>8936</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Lifebloom</name>
+                    <spellId>33763</spellId>
+                </anyAuras>
+                <noneAuras>
+                    <name>Cloak of Shadows</name>
+                    <spellId>31224</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Spell Reflection</name>
+                    <spellId>23920</spellId>
+                </noneAuras>
+            </value>
+        </buffs>
+        <spell>
+            <name>Spellsteal</name>
+            <spellId>30449</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <manaPercentMinimum>
+            <unitId>SELF</unitId>
+            <value>50</value>
+        </manaPercentMinimum>
+        <buffs>
+            <unitId>FOCUS</unitId>
+            <value>
+                <anyAuras>
+                    <name>Icy Veins</name>
+                    <spellId>12472</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Power Infusion</name>
+                    <spellId>10060</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Eradication</name>
+                    <spellId>64371</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Avenging Wrath</name>
+                    <spellId>31884</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Divine Favor</name>
+                    <spellId>31842</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Arcane Power</name>
+                    <spellId>12042</spellId>
+                </anyAuras>
+                <noneAuras>
+                    <name>Spell Reflection</name>
+                    <spellId>23920</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Cloak of Shadows</name>
+                    <spellId>31224</spellId>
+                </noneAuras>
+            </value>
+        </buffs>
+        <spell>
+            <name>Spellsteal</name>
+            <spellId>30449</spellId>
+        </spell>
+        <unitId>FOCUS</unitId>
+    </rotationActions>
+    <rotationActions>
+        <buffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <anyAuras>
+                    <name>Innervate</name>
+                    <spellId>29166</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Divine Plea</name>
+                    <spellId>54428</spellId>
+                </anyAuras>
+                <noneAuras>
+                    <name>Cloak of Shadows</name>
+                    <spellId>31224</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Spell Reflection</name>
+                    <spellId>23920</spellId>
+                </noneAuras>
+            </value>
+        </buffs>
+        <manaPercentMaximum>
+            <unitId>SELF</unitId>
+            <value>50</value>
+        </manaPercentMaximum>
+        <spell>
+            <name>Spellsteal</name>
+            <spellId>30449</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <buffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <anyAuras>
+                    <name>Innervate</name>
+                    <spellId>29166</spellId>
+                </anyAuras>
+                <anyAuras>
+                    <name>Divine Plea</name>
+                    <spellId>54428</spellId>
+                </anyAuras>
+                <noneAuras>
+                    <name>Spell Reflection</name>
+                    <spellId>23920</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Cloak of Shadows</name>
+                    <spellId>31224</spellId>
+                </noneAuras>
+            </value>
+        </buffs>
+        <manaPercentMaximum>
+            <unitId>SELF</unitId>
+            <value>50</value>
+        </manaPercentMaximum>
+        <spell>
+            <name>Spellsteal</name>
+            <spellId>30449</spellId>
+        </spell>
+        <unitId>FOCUS</unitId>
+    </rotationActions>
+    <rotationActions>
+        <healthPercentMaximum>
+            <unitId>SELF</unitId>
+            <value>90</value>
+        </healthPercentMaximum>
+        <spell>
+            <name>Ice Barrier</name>
+            <spellId>11426</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <healthPercentMaximum>
+            <unitId>SELF</unitId>
+            <value>30</value>
+        </healthPercentMaximum>
+        <spell>
+            <name>Mana Shield</name>
+            <spellId>1463</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <buffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Ice Block</name>
+                    <spellId>45438</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Spell Reflection</name>
+                    <spellId>23920</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Cloak of Shadows</name>
+                    <spellId>31224</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Divine Shield</name>
+                    <spellId>642</spellId>
+                </noneAuras>
+            </value>
+        </buffs>
+        <spell>
+            <name>Deep Freeze</name>
+            <spellId>44572</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <debuffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Polymorph</name>
+                    <spellId>118</spellId>
+                </noneAuras>
+            </value>
+        </debuffs>
+        <buffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Cloak of Shadows</name>
+                    <spellId>31224</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Anti-Magic Shell</name>
+                    <spellId>48707</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Ice Block</name>
+                    <spellId>45438</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Divine Shield</name>
+                    <spellId>642</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Spell Reflection</name>
+                    <spellId>23920</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Hand of Freedom</name>
+                    <spellId>1044</spellId>
+                </noneAuras>
+            </value>
+        </buffs>
+        <range>
+            <unitId>TARGET</unitId>
+            <value>8</value>
+        </range>
+        <spell>
+            <name>Frost Nova</name>
+            <spellId>122</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <debuffs>
+            <unitId>FOCUS</unitId>
+            <value>
+                <noneAuras>
+                    <name>Polymorph</name>
+                    <spellId>118</spellId>
+                </noneAuras>
+            </value>
+        </debuffs>
+        <range>
+            <unitId>FOCUS</unitId>
+            <value>8</value>
+        </range>
+        <spell>
+            <name>Frost Nova</name>
+            <spellId>122</spellId>
+        </spell>
+        <unitId>FOCUS</unitId>
+    </rotationActions>
+    <rotationActions>
+        <caster>
+            <unitId>TARGET</unitId>
+            <value>true</value>
+        </caster>
+        <healthPercentMaximum>
+            <unitId>SELF</unitId>
+            <value>80</value>
+        </healthPercentMaximum>
+        <spell>
+            <name>Mage Ward</name>
+            <spellId>543</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <debuffs>
+            <unitId>SELF</unitId>
+            <value>
+                <anyAuraTypes>CURSE</anyAuraTypes>
+            </value>
+        </debuffs>
+        <spell>
+            <name>Remove Curse</name>
+            <spellId>475</spellId>
+        </spell>
+        <unitId>SELF</unitId>
+    </rotationActions>
+    <rotationActions>
+        <manaPercentMaximum>
+            <unitId>SELF</unitId>
+            <value>20</value>
+        </manaPercentMaximum>
+        <spell>
+            <name>Mana Gem</name>
+            <spellId>36799</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <petDoesNotExist>
+            <unitId>SELF</unitId>
+            <value>true</value>
+        </petDoesNotExist>
+        <spell>
+            <name>Summon Water Elemental</name>
+            <spellId>31687</spellId>
+        </spell>
+        <unitId>SELF</unitId>
+    </rotationActions>
+    <rotationActions>
+        <spellIsOnCooldown>
+            <value>92283</value>
+        </spellIsOnCooldown>
+        <attackNumbers>
+            <value>1</value>
+        </attackNumbers>
+        <spell>
+            <name>Cold Snap</name>
+            <spellId>11958</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <buffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Spell Reflection</name>
+                    <spellId>23920</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Ice Block</name>
+                    <spellId>45438</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Cloak of Shadows</name>
+                    <spellId>31224</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Divine Shield</name>
+                    <spellId>642</spellId>
+                </noneAuras>
+            </value>
+        </buffs>
+        <attackNumbers>
+            <value>1</value>
+        </attackNumbers>
+        <mustBeFacing>
+            <unitId>TARGET</unitId>
+            <value>true</value>
+        </mustBeFacing>
+        <range>
+            <unitId>TARGET</unitId>
+            <value>20</value>
+        </range>
+        <spell>
+            <name>Frostfire Orb</name>
+            <spellId>92283</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <buffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Ice Block</name>
+                    <spellId>45438</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Spell Reflection</name>
+                    <spellId>23920</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Divine Shield</name>
+                    <spellId>642</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Cloak of Shadows</name>
+                    <spellId>31224</spellId>
+                </noneAuras>
+            </value>
+        </buffs>
+        <spell>
+            <name>Mirror Image</name>
+            <spellId>55342</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <buffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Cloak of Shadows</name>
+                    <spellId>31224</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Divine Shield</name>
+                    <spellId>642</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Ice Block</name>
+                    <spellId>45438</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Spell Reflection</name>
+                    <spellId>23920</spellId>
+                </noneAuras>
+            </value>
+        </buffs>
+        <disabled>
+            <value>true</value>
+        </disabled>
+        <spell>
+            <name>Time Warp</name>
+            <spellId>80353</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <buffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Ice Block</name>
+                    <spellId>45438</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Spell Reflection</name>
+                    <spellId>23920</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Cloak of Shadows</name>
+                    <spellId>31224</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Divine Shield</name>
+                    <spellId>642</spellId>
+                </noneAuras>
+            </value>
+        </buffs>
+        <spell>
+            <name>Icy Veins</name>
+            <spellId>12472</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <buffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Ice Block</name>
+                    <spellId>45438</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Divine Shield</name>
+                    <spellId>642</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Cloak of Shadows</name>
+                    <spellId>31224</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Spell Reflection</name>
+                    <spellId>23920</spellId>
+                </noneAuras>
+            </value>
+        </buffs>
+        <spell>
+            <name>Cataclysmic Gladiator's Badge of Dominance</name>
+            <spellId>73498</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <buffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Cloak of Shadows</name>
+                    <spellId>31224</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Ice Block</name>
+                    <spellId>45438</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Divine Shield</name>
+                    <spellId>642</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Spell Reflection</name>
+                    <spellId>23920</spellId>
+                </noneAuras>
+            </value>
+        </buffs>
+        <buffs>
+            <unitId>SELF</unitId>
+            <value>
+                <anyAuras>
+                    <name>Impact</name>
+                    <spellId>64343</spellId>
+                </anyAuras>
+            </value>
+        </buffs>
+        <spell>
+            <name>Fire Blast</name>
+            <spellId>2136</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <buffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Spell Reflection</name>
+                    <spellId>23920</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Divine Shield</name>
+                    <spellId>642</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Cloak of Shadows</name>
+                    <spellId>31224</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Ice Block</name>
+                    <spellId>45438</spellId>
+                </noneAuras>
+            </value>
+        </buffs>
+        <buffs>
+            <unitId>SELF</unitId>
+            <value>
+                <anyAuras>
+                    <name>Brain Freeze</name>
+                    <spellId>57761</spellId>
+                </anyAuras>
+            </value>
+        </buffs>
+        <spell>
+            <name>Frostfire Bolt</name>
+            <spellId>44614</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <buffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Divine Shield</name>
+                    <spellId>642</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Spell Reflection</name>
+                    <spellId>23920</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Cloak of Shadows</name>
+                    <spellId>31224</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Ice Block</name>
+                    <spellId>45438</spellId>
+                </noneAuras>
+            </value>
+        </buffs>
+        <buffs>
+            <unitId>SELF</unitId>
+            <value>
+                <anyAuras>
+                    <name>Fingers of Frost</name>
+                    <spellId>44544</spellId>
+                </anyAuras>
+            </value>
+        </buffs>
+        <spell>
+            <name>Ice Lance</name>
+            <spellId>30455</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <buffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Divine Shield</name>
+                    <spellId>642</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Spell Reflection</name>
+                    <spellId>23920</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Cloak of Shadows</name>
+                    <spellId>31224</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Ice Block</name>
+                    <spellId>45438</spellId>
+                </noneAuras>
+            </value>
+        </buffs>
+        <spell>
+            <name>Frostbolt</name>
+            <spellId>116</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <buffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Cloak of Shadows</name>
+                    <spellId>31224</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Spell Reflection</name>
+                    <spellId>23920</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Divine Shield</name>
+                    <spellId>642</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Ice Block</name>
+                    <spellId>45438</spellId>
+                </noneAuras>
+            </value>
+        </buffs>
+        <spell>
+            <name>Fire Blast</name>
+            <spellId>2136</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <buffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Spell Reflection</name>
+                    <spellId>23920</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Cloak of Shadows</name>
+                    <spellId>31224</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Divine Shield</name>
+                    <spellId>642</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Ice Block</name>
+                    <spellId>45438</spellId>
+                </noneAuras>
+            </value>
+        </buffs>
+        <spell>
+            <name>Ice Lance</name>
+            <spellId>30455</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+</rotation>

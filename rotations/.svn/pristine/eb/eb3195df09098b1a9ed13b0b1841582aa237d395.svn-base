@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rotation>
+    <autoArenaFocus>false</autoArenaFocus>
+    <id>8f5c7817-0955-49dd-a76d-cb547d6f88c1</id>
+    <name>MM Hunter</name>
+    <rotationActions>
+        <healthPercentMaximum>
+            <unitId>SELF</unitId>
+            <value>30</value>
+        </healthPercentMaximum>
+        <spell>
+            <name>Stoneform</name>
+            <spellId>20594</spellId>
+        </spell>
+        <unitId>SELF</unitId>
+    </rotationActions>
+    <rotationActions>
+        <healthPercentMaximum>
+            <unitId>TARGET</unitId>
+            <value>20</value>
+        </healthPercentMaximum>
+        <spell>
+            <name>Kill Shot</name>
+            <spellId>53351</spellId>
+        </spell>
+        <stopCasting>true</stopCasting>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <disabled>
+            <value>true</value>
+        </disabled>
+        <spell>
+            <name>Hunter's Mark</name>
+            <spellId>1130</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <spellIsOnCooldown>
+            <value>34490</value>
+        </spellIsOnCooldown>
+        <spell>
+            <name>Readiness</name>
+            <spellId>23989</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <casting>
+            <unitId>TARGET</unitId>
+            <value>true</value>
+        </casting>
+        <spell>
+            <name>Silencing Shot</name>
+            <spellId>34490</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <range>
+            <unitId>TARGET</unitId>
+            <value>10</value>
+        </range>
+        <spell>
+            <name>Scatter Shot</name>
+            <spellId>19503</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <range>
+            <unitId>TARGET</unitId>
+            <value>5</value>
+        </range>
+        <spell>
+            <name>Ice Trap</name>
+            <spellId>13809</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <disabled>
+            <value>true</value>
+        </disabled>
+        <range>
+            <unitId>TARGET</unitId>
+            <value>5</value>
+        </range>
+        <spell>
+            <name>Freezing Trap</name>
+            <spellId>1499</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <debuffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Concussive Shot</name>
+                    <spellId>5116</spellId>
+                </noneAuras>
+                <noneAuras>
+                    <name>Frost Breath</name>
+                    <spellId>54644</spellId>
+                </noneAuras>
+            </value>
+        </debuffs>
+        <spell>
+            <name>Concussive Shot</name>
+            <spellId>5116</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <spell>
+            <name>Rapid Fire</name>
+            <spellId>3045</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <debuffs>
+            <unitId>TARGET</unitId>
+            <value>
+                <noneAuras>
+                    <name>Serpent Sting</name>
+                    <spellId>1978</spellId>
+                </noneAuras>
+            </value>
+        </debuffs>
+        <spell>
+            <name>Serpent Sting</name>
+            <spellId>1978</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <spell>
+            <name>Chimera Shot</name>
+            <spellId>53209</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <buffs>
+            <unitId>SELF</unitId>
+            <value>
+                <anyAuras>
+                    <name>Fire!</name>
+                    <spellId>82926</spellId>
+                </anyAuras>
+            </value>
+        </buffs>
+        <spell>
+            <name>Aimed Shot</name>
+            <spellId>19434</spellId>
+        </spell>
+        <stopCasting>true</stopCasting>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <focusMinimum>
+            <unitId>SELF</unitId>
+            <value>35</value>
+        </focusMinimum>
+        <spell>
+            <name>Arcane Shot</name>
+            <spellId>3044</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <spell>
+            <name>Kill Command</name>
+            <spellId>34026</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+    <rotationActions>
+        <spell>
+            <name>Steady Shot</name>
+            <spellId>56641</spellId>
+        </spell>
+        <unitId>TARGET</unitId>
+    </rotationActions>
+</rotation>

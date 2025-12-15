@@ -1,0 +1,10 @@
+## Interface: 110205
+## Version: v11.2.5
+## Title: UberPwn
+## Notes: UberPwn Addon
+## Dependencies:
+
+UberPwn.lua
+UberPwn.xml
+
+
