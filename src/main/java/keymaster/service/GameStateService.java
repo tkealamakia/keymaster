@@ -1,4 +1,4 @@
-package uberpwn.service;
+package keymaster.service;
 
 import java.awt.Color;
 import java.awt.Rectangle;
@@ -10,8 +10,8 @@ import java.util.List;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import uberpwn.model.Coordinate;
-import uberpwn.model.GameState;
+import keymaster.model.Coordinate;
+import keymaster.model.GameState;
 
 public interface GameStateService {
 

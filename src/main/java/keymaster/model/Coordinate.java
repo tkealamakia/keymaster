@@ -1,4 +1,4 @@
-package uberpwn.model;
+package keymaster.model;
 
 import java.io.Serializable;
 

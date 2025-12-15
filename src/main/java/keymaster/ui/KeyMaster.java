@@ -1,10 +1,10 @@
-package uberpwn.ui;
+package keymaster.ui;
 
 import net.sf.ehcache.CacheManager;
-import uberpwn.model.GameState;
-import uberpwn.service.GameStateService;
-import uberpwn.service.ServiceLocator;
-import uberpwn.worker.UberPwnWorker;
+import keymaster.model.GameState;
+import keymaster.service.GameStateService;
+import keymaster.service.ServiceLocator;
+import keymaster.worker.KeyMasterWorker;
 
 import javax.swing.*;
 import java.awt.*;
@@ -14,7 +14,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-public class UberPwn extends JFrame {
+public class KeyMaster extends JFrame {
 
   private static final long serialVersionUID = 1L;
 
@@ -24,7 +24,7 @@ public class UberPwn extends JFrame {
   private JButton stopButton;
   private JTextField autoHoldKeyField;
 
-  public UberPwn() {
+  public KeyMaster() {
     initializeUI();
 
     Runtime.getRuntime().addShutdownHook(new Thread() {
@@ -81,17 +81,17 @@ public class UberPwn extends JFrame {
           else {
             startButton.setEnabled(false);
             executorService = Executors.newSingleThreadExecutor();
-            UberPwnWorker uberPwnWorker = new UberPwnWorker();
+            KeyMasterWorker keyMasterWorker = new KeyMasterWorker();
 
             // Parse the key from the text field
             String keyText = autoHoldKeyField.getText();
             if (keyText != null && !keyText.isEmpty()) {
               char keyChar = keyText.charAt(0);
               int keyCode = java.awt.event.KeyEvent.getExtendedKeyCodeForChar(keyChar);
-              uberPwnWorker.setHoldKey(keyCode);
+              keyMasterWorker.setHoldKey(keyCode);
             }
 
-            executorService.execute(uberPwnWorker);
+            executorService.execute(keyMasterWorker);
             stopButton.setEnabled(true);
           }
         }
@@ -131,8 +131,8 @@ public class UberPwn extends JFrame {
   public static void main(String args[]) {
     SwingUtilities.invokeLater(new Runnable() {
       public void run() {
-        UberPwn uberPwnFrame = new UberPwn();
-        uberPwnFrame.setVisible(true);
+        KeyMaster keyMasterFrame = new KeyMaster();
+        keyMasterFrame.setVisible(true);
       }
     });
   }

@@ -1,10 +1,10 @@
-package uberpwn.service;
+package keymaster.service;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import uberpwn.service.GameStateService.GameStateServiceImpl;
-import uberpwn.service.RobotService.RobotServiceImpl;
+import keymaster.service.GameStateService.GameStateServiceImpl;
+import keymaster.service.RobotService.RobotServiceImpl;
 
 public class ServiceLocator {
 

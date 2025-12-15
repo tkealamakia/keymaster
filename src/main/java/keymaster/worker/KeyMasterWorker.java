@@ -1,18 +1,18 @@
-package uberpwn.worker;
+package keymaster.worker;
 
 import java.awt.event.KeyEvent;
 
 import org.apache.logging.log4j.LogManager;
 
 import org.apache.logging.log4j.Logger;
-import uberpwn.model.GameState;
-import uberpwn.service.GameStateService;
-import uberpwn.service.RobotService;
-import uberpwn.service.ServiceLocator;
+import keymaster.model.GameState;
+import keymaster.service.GameStateService;
+import keymaster.service.RobotService;
+import keymaster.service.ServiceLocator;
 
-public class UberPwnWorker implements Runnable {
+public class KeyMasterWorker implements Runnable {
 
-  static Logger logger = LogManager.getLogger(UberPwnWorker.class);
+  static Logger logger = LogManager.getLogger(KeyMasterWorker.class);
 
   public static final int SLEEP = 100;
   private static final int HOLD_CHECK_INTERVAL_MS = 250;
