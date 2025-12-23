@@ -1,10 +1,10 @@
 ## Interface: 110205
 ## Version: v11.2.5
-## Title: UberPwn
-## Notes: UberPwn Addon
+## Title: keymaster
+## Notes: keymaster Addon
 ## Dependencies:
 
-UberPwn.lua
-UberPwn.xml
+keymaster.lua
+keymaster.xml
 
 
